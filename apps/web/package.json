@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:docker": "docker build -t turbo-wat -f ./Dockerfile ../..",
     "start": "next start",
     "lint": "next lint"
   },
